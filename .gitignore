@@ -1,0 +1,28 @@
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Editor and OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.tmp
+
+# Training outputs and logs
+record/
+runs/
+logs/
+*.log
+
+# Large model artifacts
+*.pt
+*.pth
+*.pkl
+
+# Local data/config overrides
+data/
+datasets/
+*.local.yaml
+
